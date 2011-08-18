@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>Bem-vindo</title>
+    </h:head>
+    <h:body>
+        <h3>Bem-vindo ao JavaServer Faces, #{user.name}!</h3>
+        <h3>Dados cadastrais</h3>
+
+            <table>
+                <tr>
+                    <td>Nome: #{user.name}</td>
+                </tr>
+                <tr>
+                    <td>Sobrenome: #{user.sobrenome}</td>
+                </tr>
+                <tr>
+                    <td>CPF: #{user.cpf}</td>
+                </tr>
+                <tr>
+                    <td>Nome de sua mae: #{user.nomemae}</td>
+                </tr>
+                <tr>
+                    <td>Naturalidade: #{user.naturalidade}</td>
+                </tr>
+                <tr>
+                    <td>Nacionalidade: #{user.nacionalidade}</td>
+                </tr>
+                <tr>
+                    <td>Senha: oculta por seguranca</td>
+                </tr>
+            </table>
+    </h:body>
+</html>
+
